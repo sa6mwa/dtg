@@ -1,13 +1,3 @@
-# Date Time Group parser
-
-Go module (package `dtg`) for parsing and printing `time.Time` in Allied
-Communication Publication (ACP) 121 NATO Date Time Group (DTG) format.
-
-## Usage
-
-Work in progress, more to come...
-
-```go
 package main
 
 import (
@@ -47,4 +37,3 @@ func main() {
 	newDtg.Time = time.Now()
 	fmt.Println("DTG now in your time zone is", newDtg, "or", newDtg.Time.Format(time.UnixDate))
 }
-```
